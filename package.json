@@ -1,0 +1,28 @@
+{
+  "name": "rocketseat-challenge-ui-kit",
+  "version": "1.0.1",
+  "author": "Guilherme Rodz",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 8080",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "polished": "^3.5.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-centered": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-icons": "^3.9.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3"
+  }
+}
